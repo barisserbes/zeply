@@ -7,10 +7,10 @@ To run the project, new python virtual environment is recommended than
 Endpoints:
 admin/    (default django admin panel)
 create-btc-address/
-btc-addresses/
+btc-address/
 btcaddress/<int:pk>/
 create-eth-address/
-eth-addresses/
+eth-address/
 eth-address/<int:pk>/
 
 I would normally use PostgreSQL for the project for demonstration purposes I used SQLite
