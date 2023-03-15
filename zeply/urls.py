@@ -22,9 +22,9 @@ from main.views import btc_address, BTCAddressView, BTCAddressList, \
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('create-btc-address/', btc_address),
-    path('btc-addresses/', BTCAddressList.as_view()),
-    path('btcaddress/<int:pk>/', BTCAddressView.as_view()),
+    path('btc-address/', BTCAddressList.as_view()),
+    path('btc-address/<int:pk>/', BTCAddressView.as_view()),
     path('create-eth-address/', eth_address),
-    path('eth-addresses/', ETHAddressList.as_view()),
+    path('eth-address/', ETHAddressList.as_view()),
     path('eth-address/<int:pk>/', ETHAddressView.as_view()),
 ]
